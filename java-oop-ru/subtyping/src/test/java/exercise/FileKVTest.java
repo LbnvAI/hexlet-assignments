@@ -30,7 +30,7 @@ class FileKVTest {
 
     // BEGIN
     @Test
-    public void FileTesting() {
+    public void fileTesting() {
         Map<String, String> map1 = new HashMap<>();
         FileKV file = new FileKV(filepath.toString(), map1);
         assertEquals("default", file.get("key1", "default"));
