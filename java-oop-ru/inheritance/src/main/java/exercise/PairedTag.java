@@ -3,7 +3,6 @@ package exercise;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.List;
-import java.util.stream.Collectors;
 
 // BEGIN
 public final class PairedTag extends Tag {
