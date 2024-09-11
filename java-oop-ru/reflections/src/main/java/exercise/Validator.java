@@ -1,7 +1,11 @@
 package exercise;
 
 import java.lang.reflect.Field;
-import java.util.*;
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+import java.util.HashMap;
 
 // BEGIN
 public class Validator {
