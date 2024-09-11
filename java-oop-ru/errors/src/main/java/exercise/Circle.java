@@ -14,9 +14,9 @@ public class Circle {
         return radius;
     }
 
-    public int getSquare() throws NegativeRadiusException {
+    public double getSquare() throws NegativeRadiusException {
         if (radius < 0) throw new NegativeRadiusException("");
-        else return (int) Math.round(Math.PI * Math.pow(radius, 2));
+        else return Math.PI * Math.pow(radius, 2);
     }
 }
 // END
