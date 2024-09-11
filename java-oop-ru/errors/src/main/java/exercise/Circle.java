@@ -15,8 +15,11 @@ public class Circle {
     }
 
     public double getSquare() throws NegativeRadiusException {
-        if (radius < 0) throw new NegativeRadiusException("");
-        else return Math.PI * Math.pow(radius, 2);
+        if (radius < 0) {
+            throw new NegativeRadiusException("");
+        } else {
+            return Math.PI * Math.pow(radius, 2);
+        }
     }
 }
 // END
